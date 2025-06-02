@@ -6,7 +6,7 @@
   --body-font: 'Roboto', sans-serif;
 }
 
-/* Reset and base styles */
+
 * {
   margin: 0;
   padding: 0;
@@ -18,20 +18,20 @@ body {
   color: var(--accent1-color);
 }
 
-/* Layout containers */
+
 header, main, footer {
   max-width: 840px;
   width: 100%;
   margin: 0 auto;
 }
 
-/* Headings */
+
 h1, h2 {
   font-family: var(--heading-font);
   color: var(--primary-color);
 }
 
-/* Typography and spacing */
+
 main nav,
 main p,
 main section,
@@ -40,7 +40,7 @@ main article {
   padding: 8px;
 }
 
-/* Hero section */
+
 .hero {
   position: relative;
 }
@@ -77,14 +77,13 @@ main article {
   margin-left: 10px;
 }
 
-/* Social media links */
 .socialmedia a {
   text-decoration: none;
   width: 50px;
   display: inline-block;
 }
 
-/* Optional: Use Flexbox instead of float if needed */
+
 .sociallinks {
   display: flex;
   justify-content: flex-end;
