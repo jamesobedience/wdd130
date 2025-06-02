@@ -80,12 +80,11 @@ main article {
 .socialmedia a {
   text-decoration: none;
   width: 50px;
-  display: inline-block;
 }
 
 
 .sociallinks {
   display: flex;
   justify-content: flex-end;
-  gap: 10px;
+  gap: 10x;
 }
