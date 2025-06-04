@@ -13,11 +13,10 @@
 }
 
 body {
-  font-family: var(--body-font);
-  color: var(--accent1-color);
+  font-family: var(--body-font, Arial, sans-serif);
+  color: var(--accent1-color, #0a9396);
   background-color: #f8f9fa;
 }
-
 
 header {
   display: grid;
@@ -37,16 +36,15 @@ nav ul {
 
 nav ul li a {
   text-decoration: none;
-  color: var(--primary-color);
+  color: var(--primary-color, #005f73);
   font-weight: bold;
   padding: 0.5rem 1rem;
 }
 
 nav ul li a:hover {
-  background-color: var(--accent2-color);
+  background-color: var(--accent2-color, #94d2bd);
   border-radius: 5px;
 }
-
 
 .hero {
   position: relative;
@@ -67,14 +65,14 @@ nav ul li a:hover {
   background-color: rgba(10, 147, 150, 0.85);
   color: white;
   padding: 1rem;
-  font-family: var(--heading-font);
+  font-family: var(--heading-font, sans-serif);
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 }
 
 .hero article {
   position: absolute;
-  top: 20%; 
-  left: 50%; 
+  top: 20%;
+  left: 50%;
   transform: translateX(-50%);
   display: flex;
   align-items: center;
@@ -94,10 +92,9 @@ nav ul li a:hover {
 }
 
 .hero article img {
-  width:200px;
+  width: 200px;
   border-radius: 6px;
 }
-
 
 .history-content {
   display: grid;
@@ -114,7 +111,6 @@ nav ul li a:hover {
   width: 150px;
   border-radius: 8px;
 }
-
 
 .adventures {
   text-align: center;
@@ -145,7 +141,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
-  border-top: 1px solid var(--accent1-color);
+  border-top: 1px solid var(--accent1-color, #0a9396);
   margin-top: 2rem;
   max-width: 1000px;
   margin-left: auto;
@@ -157,4 +153,3 @@ footer .socialmedia {
   gap: 2px;
   justify-content: flex-end;
 }
-
