@@ -18,7 +18,7 @@ body {
   background-color: #f8f9fa;
 }
 
-/* Header with Grid */
+
 header {
   display: grid;
   grid-template-columns: auto 1fr 2fr;
@@ -29,7 +29,6 @@ header {
   margin: 0 auto;
 }
 
-/* Navigation with Flex */
 nav ul {
   display: flex;
   justify-content: space-around;
@@ -48,7 +47,7 @@ nav ul li a:hover {
   border-radius: 5px;
 }
 
-/* Hero Section */
+
 .hero {
   position: relative;
   text-align: center;
@@ -74,10 +73,9 @@ nav ul li a:hover {
 
 .hero article {
   position: absolute;
-  top: 20%; /* Moves it down 20% from the top of the screen */
-  left: 50%; /* Starts from the middle of the screen */
-  transform: translateX(-50%); /* Shifts it back by 50% of its own width to center */
-  
+  top: 20%; 
+  left: 50%; 
+  transform: translateX(-50%);
   display: flex;
   align-items: center;
   background: rgba(255, 255, 255, 0.909);
@@ -118,7 +116,6 @@ nav ul li a:hover {
 }
 
 
-/* Adventures Section */
 .adventures {
   text-align: center;
   margin: 2rem;
@@ -143,7 +140,6 @@ nav ul li a:hover {
   border-radius: 6px;
 }
 
-/* Footer */
 footer {
   display: flex;
   justify-content: space-between;
