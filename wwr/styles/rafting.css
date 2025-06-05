@@ -106,7 +106,10 @@ nav ul li a:hover {
   padding: 2rem;
   text-align: justify;
 }
-
+.history {
+  text-align: center;
+  margin: 1.5rem;
+}
 .history-content img {
   width: 150px;
   border-radius: 8px;
