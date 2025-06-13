@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - White Water Rafting Co.</title>
+  <meta name="description" content="Get in touch with Whitewater Rafting Adventures. Find our contact information, location, and send us a message through our contact form.">
+  <meta name="author" content="James Imoh Obedience">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/rafting.css">
+</head>
+<body>
+  <header>
+    <img src="images/Logo.jpeg" alt="Rafting Site Logo" width="80">
+    <h1>White Water Rafting Co.</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="trips.html">Trips</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    
+  <section id="company-info">
+    <h2>Contact Information</h2>
+    <p>Address: 123 River Rapids Lane, Adventure City, AC 45678</p>
+    <p>Phone: (+234) 90576-13210</p>
+    <p>Email: jamesobedience143@gmail.com</p>
+      <div class="map"> 
+           <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1014930.8588822415!2d3.4308096!3d6.4487423999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1721138343018!5m2!1sen!2sng" width="1000" height="500" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    
+      </div>
+         
+  </section>
+
+  <section id="employee-profiles">
+    <h2>Meet Our Team</h2>
+    <div class="figures-container">
+      <figure>
+        <img src="images/employee1.jpg" alt="Photo of John Doe, Guide">
+        <figcaption>Lead Guide</figcaption>
+      </figure>
+      <figure>
+        <img src="images/employee2.jpg" alt="Photo of Jane Smith, Safety Officer">
+        <figcaption>Safety Officers</figcaption>
+      </figure>
+      <figure>
+        <img src="images/employee3.jpg"  alt="Photo of Mike Lee, Customer Service">
+        <figcaption>Customer Service</figcaption>
+      </figure>
+    </div>
+    
+  </section>
+
+  <section id="contact-form">
+    <h2>Send Us a Message</h2>
+    <form action="submit_form.php" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <fieldset>
+        <legend>Purpose of Message:</legend>
+        <label><input type="radio" name="purpose" value="general" required> General Inquiry</label>
+        <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label>
+        <label><input type="radio" name="purpose" value="suggestion"> Website Suggestion</label>
+      </fieldset>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <label><input type="checkbox" name="subscribe"> Please subscribe me to the monthly newsletter</label>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+</main>
+
+  <footer>
+    <p>&copy; 2025 White Water Rafting Co. | James Imoh Obedience</p>
+    <div class="socialmedia">
+      <a href="https://facebook.com"><img src="images/facebook.png" alt="Facebook" width="30" /></a>
+      <a href="https://twitter.com"><img src="images/twitter.png" alt="Twitter" width="30" /></a>
+      <a href="https://instagram.com"><img src="images/instagram.png" alt="Instagram" width="30" /></a>
+    </div>
+  </footer>
+</body>
+</html>
+
+
